@@ -1,0 +1,107 @@
+<!doctype>
+<html>
+<head>
+  <title>SignUp</title>
+  <meta name = "Sell For Me" scale = "1.0">
+  <meta name="viewport" content ="width=device-width,initial-scale=1.0,user-scalable=yes" >
+  <link rel = "stylesheet" href = "css\SignUp.css" type="text/css"/>
+</head>
+<body>
+
+  <div class = "header">
+    <img src = "images\SFM.jpeg" alt = "" width="70px"/>
+<div class = "container">
+  <a href = "Home.html">Home</a>
+     <a href = "AboutUs.html">About Us</a>
+     <a href = "ContactUs.html">Contact Us</a>
+     <a href = "women.html">Women</a>
+     <a href = "men.html">Men</a>
+     <a href = "house.html">House</a>
+     <a href = "LogIn.html" class = "float"> Log in </a>
+</div>
+<div class = "messege">
+  <p>this website is for small sellers to help them grow up if you are a small seller create your account</p>
+</div>
+<button><a href ="SignUp.html">Sign up</a></button>
+</div>
+<section class = "signup">
+<form name ="regform" action="reg_handler.php" method ="post">
+	<p> </p>
+  <div>
+
+    <label for="name" id ="label0">Name: <span class="required">*</span> </label>
+    <input type="text" name="name"  placeholder="Your name" required="required" autofocus />
+  </div>
+  <p></p>
+  <div>
+
+    <label for="email" id = "label1">Email Address: <span class="required">*</span> </label>
+    <input type="email" name="email" placeholder="your@email.com" required="required" />
+  </div>
+  <p> </p>
+  <div>
+
+    <label for="password" id = "label2">New Password: <span class="required">*</span> </label>
+    <input type="password" name="password"  placeholder="" required="required" />
+  </div>
+  <p> </p>
+  <div>
+
+    <label for="country">Country:</label>
+    <select  name="country">
+		<option></option>
+      <option >Egypt</option>
+      <option >KSA</option>
+      <option >AUE</option>
+    </select>
+  </div>
+
+ <p> </p>
+
+
+<div name = "gender">
+    <label for="radio-choice-1">Male</label>
+    <input type="radio" name="radio-choice" id="radio-choice-1" value="choice-1">
+    <label for="radio-choice-2">Female</label>
+    <input type="radio" name="radio-choice" id="radio-choice-2" value="choice-2">
+  </div>
+  <p> </p>
+  <div>
+    <h4>Accept terms and condition</h4>
+    <label for="checkbox" id = "label3">Agree</label>
+    <input type="checkbox" name="checkbox" id="checkbox">
+
+  </div>
+  <p> </p>
+  <div>
+    <input name = "submit" type="submit" value="Submit" class = "submit" id = "signup" />
+  </div>
+</form>
+
+	<p> </p>
+	<p class = "p">if you already have an account </p>
+	 <a href = "login.html" class = "login">Login</a>
+	 <p> </p>
+</section>
+
+
+
+
+
+
+
+			<footer>
+		<div class = "container2">
+	    <ul>
+        <li><a href ="AboutUs.html">About us</a></li>
+         <li><a href ="Terms and Conditions.html">terms and conditions</a></li>
+         <li><a href ="Home.html">Home</a></li>
+         <li><a href ="ContactUs.html">contact</a></li>
+			</ul>
+	</div>
+		<p>M.L&copy;</p>
+</footer>
+
+<script src ="validation.js"></script>
+</body>
+</html>

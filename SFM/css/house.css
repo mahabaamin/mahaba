@@ -1,0 +1,154 @@
+@charset "UTF-8";
+
+body{
+background: #f1f6f9;
+}
+
+.header{
+  background: #aee6e6;
+  margin-bottom: 10px;
+  padding: 5px;
+  border: solid black thin;
+}
+
+.container{
+    padding-left: 30px;
+    margin-left: 20%;
+    margin-top: -30px;
+}
+.container a {
+text-decoration: none;
+color : #0D0B5B;
+padding: 40px;
+font-weight: bold;
+font-size: large;
+}
+.container a:hover  {
+    background-color: #ffda77;
+    text-decoration: none;
+     padding: 20px;
+    font-size: large;
+    color: rgba(255,255,255,1.00);
+    transition: 0.5s;
+}
+.header .float{
+  margin-top: -30px;
+  float:right;
+}
+
+
+button a {
+  text-decoration: none;
+  color: #0D0B5B;
+  font-weight: bold;
+
+}
+.left-side{
+  float:left;
+  background: white;
+  padding: 20px;
+  width: 17%;
+  position: sticky;
+}
+.categories input{
+display: table;
+background: white;
+border: white;
+color:  #0D0B5B;
+font-weight: bold;
+
+}
+.house{
+ display:grid;
+ grid-column-gap: 20px;
+ grid-template-columns: auto auto auto;
+ padding:20px;
+ text-align: center;
+ float:right;
+ width:75%;
+ padding:20px;
+ background: white;
+}
+
+.border{
+  margin:10px;
+border: thin solid #ffda77;
+}
+.border:hover{
+  background: #ffda77;
+  transition: .5s;
+}
+.search{
+  margin-left: 100px;
+  border:thin solid #ffda77;
+  width: 50%;
+  height: 50px;
+}
+.price{
+width:300px;
+position: relative;
+}
+.head{
+  margin-top: 10px;
+  color: #0D0B5B;
+  font-size: 25px;
+  font-weight: bold;
+}
+.head button{
+  margin-left: 50px;
+}
+.pii{
+color:#0D0B5B;
+}
+.pii input{
+  border:solid thin rgba(231,255,146,.5);
+}
+
+.container2{
+  clear:both;
+}
+.container2 ul {
+    color: rgba(0,0,0,1.00);
+    text-decoration: none;
+    list-style-type: none;
+}
+.container2 ul li {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.container2 ul a {
+    text-decoration: none;
+    color: rgba(0,0,0,1.00);
+}
+.container2 ul a:hover {
+    text-decoration: none;
+
+    font-size: x-large;
+}
+.container2 {
+    border-top: thick double #ffda77;
+    margin-top: 10px;
+}
+body footer p {
+    margin-left: 500px;
+    color: rgba(0,0,0,1.00);
+
+}
+.messege{
+  width: 100%;
+  color: #0D0B5B;
+  font-weight: bold;
+  background: #ffda77;
+}
+button{
+  background: #ffda77;
+  border: thin #ffda77 solid;
+  margin-left: 90%;
+}
+button a {
+  text-decoration: none;
+  color: #0D0B5B;
+  font-weight: bold;
+
+}

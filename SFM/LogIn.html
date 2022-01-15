@@ -1,0 +1,93 @@
+<!doctype>
+<html>
+<head>
+  <title>LogIn</title>
+  <meta name = "Sell For Me" scale = "1.0">
+  <meta name="viewport" content ="width=device-width,initial-scale=1.0,user-scalable=yes" >
+  <link rel = "stylesheet" href = "css\LogIn.css" type="text/css"/>
+
+</head>
+<body>
+
+  <div class = "header">
+    <img src = "images\SFM.jpeg" alt = "" width="70px"/>
+<div class = "container">
+  <a href = "Home.html">Home</a>
+     <a href = "AboutUs.html">About Us</a>
+     <a href = "ContactUs.html">Contact Us</a>
+     <a href = "women.html">Women</a>
+     <a href = "men.html">Men</a>
+     <a href = "house.html">House</a>
+     <a href = "LogIn.html" class = "float"> Log in </a>
+</div>
+<div class = "messege">
+  <p>this website is for small sellers to help them grow up if you are a small seller create your account</p>
+</div>
+<button><a href ="SignUp.html">Sign up</a></button>
+</div>
+	<div class = "login">
+
+    <form   name = "form">
+    <div>
+
+      <label for="email" id = "label1">Email Address:  </label>
+      <input  type="email"  name="email" placeholder="your@email.com"  />
+    </div>
+    <p> </p>
+    <div>
+
+      <label for="password" id = "label2"> Password:  </label>
+      <input   type="password" name="password" />
+    </div>
+    <p> </p>
+    <div>
+      <input  type="submit" name = "submit" value="Submit" class = "submit" id = "submitBtn" />
+    </div>
+  </form>
+</div>
+
+			<footer>
+		<div class = "container2">
+	    <ul>
+        <li><a href ="AboutUs.html">About us</a></li>
+         <li><a href ="Terms and Conditions.html">terms and conditions</a></li>
+         <li><a href ="Home.html">Home</a></li>
+         <li><a href ="ContactUs.html">contact</a></li>
+			</ul>
+	</div>
+		<p>M.L&copy;</p>
+</footer>
+  <script>
+  document.getElementById("submitBtn").addEventListener("click", function click(event){
+    event.preventDefault();
+
+    var email = document.form.email.value;
+    var password = document.form.password.value;
+      var  label1 = document.getElementById("label1");
+      var  label2 = document.getElementById("label2");
+
+    if (email == ""){
+    label1.innerHTML = "Email Address: [required]";
+  }
+
+    else if (password == ""){
+      label2.innerHTML = "Password: [required]";
+
+    }
+    else if (email == "admin@admin.com"){
+     if (password == "1810133118100850"){
+          window.location.href = "Home.html";
+     }
+     else {
+       alert("try again");
+     }
+   }
+  else {
+    alert("try again");
+  }
+  }
+  );
+
+   </script>
+</body>
+</html>
